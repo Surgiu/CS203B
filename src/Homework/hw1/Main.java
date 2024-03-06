@@ -13,7 +13,7 @@ public class Main {
             people[i] = new UnionFind(i);
         }
         ArrayList<String> lines = new ArrayList<>();
-        String s1= StdIn.readLine();
+        StdIn.readLine();
         while (StdIn.hasNextLine()) {
             String current = StdIn.readLine();
             if (current.isEmpty()) break;

@@ -1,10 +1,12 @@
 package draft;
 import edu.princeton.cs.algs4.StdIn;
 
+import java.util.Arrays;
+
 public class t2 {
     public static void main(String[] args) {
-
-//        String[] lines = s.split("\\r?\\n");
-//        System.out.println(lines[0]);
+        String s = StdIn.readAll();
+        String[] lines = s.split("\\r?\\n");
+        System.out.println(Arrays.toString(lines));
     }
 }
